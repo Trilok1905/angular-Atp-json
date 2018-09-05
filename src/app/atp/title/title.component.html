@@ -1,0 +1,30 @@
+<div class="card border-info">
+    <div class="card-header bg-info">
+        <button class="btn btn-warning float-right" (click)="goBack()"><i class="fa fa-arrow-left mr-2"></i>Back</button>      
+      <button class="btn btn-success float-right mr-1" (click)="addTitle()"><i class="fa fa-plus mr-2"></i>Add Title</button>
+    
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Atp Titles</h5>
+      <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Category</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let atp of titles">
+                  <td>
+                    {{atp.name}}</td>
+                  <td>{{atp.category}}</td>
+                <td>
+                <a routerLink="../../add/{{atp.id}}" routerLinkActive="active" class=" btn btn-warning btn-sm mr-2"><i class="fa fa-edit mr-1"></i>edit</a>
+                <button  class=" btn btn-danger btn-sm mr-2" (click)="deleteTitle(atp.id)"><i class="fa fa-trash mr-1"></i>delete</button>             
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>  
+  </div>

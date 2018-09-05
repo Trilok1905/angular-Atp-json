@@ -1,0 +1,31 @@
+<div class="card border-info ">
+  <div class="card-header bg-info text-white">
+      <h5 class="card-title">Atp Categories</h5>
+    <button class="btn btn-success float-right" (click)="addTitle()"><i class="fa fa-plus mr-2"></i>Add Title</button>
+  </div>
+  <div class="card-body">
+    <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Events</th>
+            <th>No of Tournaments</th>
+            <th>Points</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let atp of atps">
+                <td>
+                  {{atp.name}}</td>
+                <td>{{atp.tournaments}}</td>
+                <td>{{atp.points}}</td>
+              <td>
+              <a routerLink="../title/{{atp.name}}" routerLinkActive="active" class=" btn btn-success btn-sm mr-2"><i class="fa fa-eye mr-1"></i>view</a>
+              <a routerLink="../view/{{atp.id}}" routerLinkActive="active" class=" btn btn-warning btn-sm mr-2"><i class="fa fa-edit mr-1"></i>edit</a>
+              <a routerLink="" routerLinkActive="active" class=" btn btn-danger btn-sm mr-2"><i class="fa fa-trash mr-1"></i>delete</a>             
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </div>  
+</div>

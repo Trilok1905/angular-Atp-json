@@ -1,0 +1,115 @@
+{
+  "atp": [
+    {
+      "id": 1,
+      "name": "Grand Slam",
+      "tournaments": 4,
+      "points": 2000
+    },
+    {
+      "id": 2,
+      "name": "ATP Finals",
+      "tournaments": 1,
+      "points": 1500
+    },
+    {
+      "id": 3,
+      "name": "ATP World Tour Masters 1000",
+      "tournaments": 9,
+      "points": 1000
+    },
+    {
+      "id": 4,
+      "name": "ATP World Tour 500 series",
+      "tournaments": 13,
+      "points": 500
+    }
+  ],
+  "titles": [
+    {
+      "name": "austrailian open",
+      "category": "Grand Slam",
+      "id": 1
+    },
+    {
+      "name": "french open",
+      "category": "Grand Slam",
+      "id": 2
+    },
+    {
+      "name": "wimbledon",
+      "category": "Grand Slam",
+      "id": 3
+    },
+    {
+      "name": "Us open",
+      "category": "Grand Slam",
+      "id": 4
+    },
+    {
+      "name": "Indian Wells Masters",
+      "category": "ATP World Tour Masters 1000",
+      "id": 5
+    },
+    {
+      "name": "Miami Open",
+      "category": "ATP World Tour Masters 1000",
+      "id": 6
+    },
+    {
+      "name": "Monte-Carlo Masters",
+      "category": "ATP World Tour Masters 1000",
+      "id": 7
+    },
+    {
+      "name": "Madrid Open",
+      "category": "ATP World Tour Masters 1000",
+      "id": 8
+    },
+    {
+      "name": "Italian Open",
+      "category": "ATP World Tour Masters 1000",
+      "id": 9
+    },
+    {
+      "name": "Canadian Open",
+      "category": "ATP World Tour Masters 1000",
+      "id": 10
+    },
+    {
+      "name": "Cincinnati Masters",
+      "category": "ATP World Tour Masters 1000",
+      "id": 11
+    },
+    {
+      "name": "Shanghai Masters",
+      "category": "ATP World Tour Masters 1000",
+      "id": 12
+    },
+    {
+      "name": "Paris Masters",
+      "category": "ATP World Tour Masters 1000",
+      "id": 13
+    },
+    {
+      "name": null,
+      "category": null,
+      "id": 15
+    },
+    {
+      "name": null,
+      "category": null,
+      "id": 16
+    },
+    {
+      "name": null,
+      "category": null,
+      "id": 17
+    },
+    {
+      "name": null,
+      "category": null,
+      "id": 18
+    }
+  ]
+}

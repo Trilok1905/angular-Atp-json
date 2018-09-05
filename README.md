@@ -2,6 +2,40 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
+
+## Feature list
+
+ * Atp Listing
+ * Atp Details view
+ * Atp Addition
+ * Atp titles list view
+
+
+## Angular 4 features used
+
+ * Modules
+ * Routes
+ * Services
+ * Components
+ * Forms Module
+ * Reactive Forms
+ * Directives
+ 
+ 
+
+## Libraries Used
+
+ * Bootstrap 4 front end design
+
+
+## Backend Api
+
+* json server
+
+## Json server
+
+* json-server --watch db.json . Navigate to `http://localhost:3000/`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

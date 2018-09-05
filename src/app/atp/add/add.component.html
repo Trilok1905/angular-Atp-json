@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="card-header bg-info text-white">
+    <h5 class="card-title">Add New Atp</h5>
+  </div>
+  <div class="card-body">
+     <form [formGroup]="form" (ngSubmit)="onSubmit(form)" class="w-50">
+      <div class="form-group">
+        <input type="text" class="form-control"  placeholder="Enter Title" formControlName="name">
+      </div> 
+      <div class="form-group">
+          <select  class="form-control"  formControlName="category">
+            <option [disabled]>----Select Title----</option>
+            <option [value]="atp.name" *ngFor="let atp of atps">{{atp.name}}</option>
+          </select>
+      </div>
+      <div class="form-group">
+      <button type="submit" class="btn btn-success btn-sm mr-1">Save</button>
+      <button  class="btn btn-primary btn-sm mr-1" (click)="goBack()">Back</button>
+     </div>
+     </form>
+  </div>
+  <div class="card footer"></div>
+</div>
